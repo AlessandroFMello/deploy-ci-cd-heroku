@@ -5,10 +5,5 @@ setup:
 build: 
   docker:
     web: Dockerfile
-    worker: worker/Dockerfile
-release:
-  command:
-    - ./deployment-tasks.sh
-  image: worker
-run: 
+
   web: node index.js
