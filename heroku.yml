@@ -9,6 +9,6 @@ build:
 release:
   command:
     - ./deployment-tasks.sh
-    image: worker
+  image: worker
 run: 
   web: node index.js
